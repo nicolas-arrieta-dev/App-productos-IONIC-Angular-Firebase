@@ -239,3 +239,18 @@ https://www.yorch-dev.com/
 Los créditos correspondientes al contenido, metodología y material de referencia utilizado durante el desarrollo pertenecen a su autor original.
 
 Este repositorio tiene fines educativos y de aprendizaje.
+
+<img width="652" height="1018" alt="image" src="https://github.com/user-attachments/assets/197f4bd8-db9c-48f1-90bf-ee7e067a7294" />
+<img width="685" height="1016" alt="image" src="https://github.com/user-attachments/assets/ed141eaa-c021-43e7-8a75-ef2fdb202809" />
+<img width="1525" height="533" alt="image" src="https://github.com/user-attachments/assets/56ae9cb3-e1c3-4a9e-a12b-a6551c197055" />
+
+<img width="594" height="1020" alt="image" src="https://github.com/user-attachments/assets/04bcad7c-6d85-4759-b94f-034e0d157dee" />
+<img width="1919" height="1027" alt="image" src="https://github.com/user-attachments/assets/3a56aa6c-a8b4-473f-86db-aaf542518146" />
+<img width="1919" height="1027" alt="image" src="https://github.com/user-attachments/assets/83054a0b-4b71-4b2a-8a2c-7c8f43634112" />
+<img width="628" height="1025" alt="image" src="https://github.com/user-attachments/assets/0db340fd-1e21-4a1c-ab00-99dc2e1f9cc6" />
+<img width="661" height="1022" alt="image" src="https://github.com/user-attachments/assets/458f818b-f1ad-4099-ab09-f73c05f39e2f" />
+<img width="633" height="1019" alt="image" src="https://github.com/user-attachments/assets/979d7488-495d-40e0-9ade-e4ebd3914599" />
+<img width="677" height="1028" alt="image" src="https://github.com/user-attachments/assets/a79c57d9-53f1-45a3-8170-d2e2b3eb0fe7" />
+<img width="596" height="1019" alt="image" src="https://github.com/user-attachments/assets/bc7b9431-814e-4cd4-8f73-f1e0c7f54256" />
+
+
