@@ -1,0 +1,69 @@
+<app-header backButton="/auth" title="Registro"></app-header>
+
+<ion-content>
+
+    <div class="d-flex-center">
+        <form [formGroup]="form" class="auth-form" (ngSubmit)="submit()" (keypress.enter)="submit()">
+    <app-logo></app-logo>
+<!-- =================0 name 0================-->
+    <app-custom-input
+    autocomplete="name"
+     icon="person-outline"
+     [control]="form.controls.name"
+     type="name"
+     label = "nombre"
+     ></app-custom-input>
+    @if (form.controls.name.errors && form.controls.name.touched){
+        <div class="validators">
+            @if(form.controls.name.errors?.['required']){
+                <div>Este campo es requerido</div>
+            }
+               @if(form.controls.name.errors?.['minlenght']){
+                <div>El nombre debe tener al menos 4 caracteres</div>
+            }
+        </div>
+    }
+
+    <!-- =================0 email 0================-->
+    <app-custom-input
+    autocomplete="email"
+     icon="mail-outline"
+     [control]="form.controls.email"
+     type="email"
+     label = "correo"
+     ></app-custom-input>
+    @if (form.controls.email.errors && form.controls.email.touched){
+        <div class="validators">
+            @if(form.controls.email.errors?.['required']){
+                <div>El correo es requerido</div>
+            }
+               @if(form.controls.email.errors?.['email']){
+                <div>Ingrese un correo valido</div>
+            }
+        </div>
+    }
+    <!-- =================0 Contraseña 0================-->
+    <app-custom-input
+        [control]="form.controls.password"
+        icon="lock-closed-outline"
+        type="password"
+        label="Contraseña"
+     ></app-custom-input> 
+    @if (form.controls.password.errors && form.controls.password.touched){
+        <div class="validators">
+            @if(form.controls.password.errors?.['required']){
+                <div>La contraseña es requerida</div>
+            }
+    
+        </div>
+    }
+    <ion-button expand="block" mode="ios" class="submit" type="submit" [disabled]="form.invalid">
+      Registrate
+  <ion-icon slot="end" name="person-add-outline"></ion-icon>
+    </ion-button>
+
+</form>
+    </div>
+
+
+</ion-content>
